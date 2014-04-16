@@ -1,0 +1,129 @@
+body {
+  background-color: #F8F8F8;
+}
+
+p {
+  font-size: 18px;
+}
+
+.name_nav {
+  text-align: left;
+  font-size: 17px;
+}
+
+.nav_div {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  text-align: right;
+  font-family: 'Syncopate', sans-serif;
+  background-color: #333333;
+  color: #F8F8F8;
+}
+
+a {
+  color: #F8F8F8;
+}
+
+a:hover {
+  color: #F8F8F8;
+  text-decoration: underline;
+}
+
+#intro_icon_container {
+  /*border: solid;*/
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  background-color: #F8F8F8;
+}
+
+.intro {
+  /*border: solid;*/
+}
+
+.name {
+  color: #FFB90A;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+}
+
+#my_photo {
+  height: 250px;
+  width: 250px;
+}
+
+.icons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+img.img_icon:hover {
+  width: 70px;
+}
+
+.projects {
+  /*border: solid;*/
+  margin-top: 50px;
+  background-color: rgba(191,191,191,.3);
+  padding-bottom: 120px;
+}
+
+.projects_title {
+  /*border: solid;*/
+/*  margin-top: 20px;*/
+  padding-top: 50px;
+  padding-bottom: 20px;
+ /* padding-left: 10px;*/
+}
+
+.project1_title {
+  text-align: center;
+}
+
+a.github_link {
+  color: #428BCA;
+}
+
+.project1_img {
+  /*border: solid;*/
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.project2_title {
+  text-align: center;
+}
+
+.project2_img {
+  padding: 20px;
+}
+
+.about_me {
+  /*border: solid;*/
+  background-color: #F8F8F8;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 125px;
+}
+
+img.aboutme_pic {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 12px;
+}
+
+.contact {
+/*  border: solid;*/
+  margin-top: 70px;
+  text-align: center;
+}
+
+.contact_name {
+  color: #FFB90A;
+}
+
+a.contact {
+  color: #428BCA;
+}

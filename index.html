@@ -1,1 +1,90 @@
-Hello
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Charlene Estiva - Web Developer</title>
+ <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>  
+  <link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav_div navbar-fixed-top container-fluid">
+      <div class="name_nav"><a class="nav_link col-md-4" href="#">CHARLENE ESTIVA</a></div>
+      <a href="#projects" class="nav_link">Projects</a> |
+      <a href="#about" class="nav_link">About</a>
+    </div>
+  </nav>
+
+  <div id="intro_icon_container" class="col-xs-12">
+    <div class="intro">
+      <h1>Hi! I'm <span class="name">Charlene</span>.</h1>
+      <img id="my_photo" src="img/circle_photo_with_border.png" onmouseover="hover(this);" onmouseout="unhover(this);"/>
+      <p>I'm a web developer based in <br> San Francisco, CA. </p>
+    </div>
+    <div class="bridge">
+      <img src="img/sf_bridge_grey.png" />
+    </div>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/charleneestiva"><img class="img_icon" src="img/linkedincircle.png" /></a>
+      <a href="https://github.com/cbestiva"><img class="img_icon" src="img/githubcircle.png" /></a>
+      <a href="https://angel.co/charlene-estiva"><img class="img_icon" src="img/angellistcircle.png" /></a>
+      <a href="http://instagram.com/cbestiva"><img class="img_icon" src="img/instagramcircle.png" /></a>
+    </div>
+  </div>
+
+  <a name="projects"></a> 
+  <div class="projects col-xs-12"> 
+    <div class="projects_title">
+      <h3>Projects:</h3>
+    </div>
+    <div class="project1_title">
+      <a class="github_link" href="https://github.com/cbestiva/WDI_project1" target="_blank"><h4>SF Farmers' Market Guide</h4></a>
+      <p>Informative site on all farmers' markets in San Francisco</p>
+      <div class="project1_img">
+        <img class="img-responsive center-block" src="img/project1.png" />
+      </div>
+    </div>
+    <div class="project2_title">
+      <a class="github_link" href="https://github.com/cbestiva/treasurechest" target"_blank"><h4>TreasureChest</h4></a>
+      <p>Craigslit meets Pinterest - Sell and buy treasures locally</p>
+      <div class="project2_img">
+        <img class="img-responsive center-block" src="img/project2.png" />
+      </div>
+    </div>
+  </div>
+
+  <a name="about"></a>
+  <div class="about_me col-xs-12">
+    <h3>About Me...</h3>
+    <img class="aboutme_pic" src="img/aboutme_pic.png" />
+    <p>I'm a born and raised San Franciscan and a former accountant who gained an interest in web development. I took an HTML and CSS evening course at AcademyX and grew an itch to learn more code. I started to learn Ruby from free online tutorials and attended a couple meetups for ROR and JavaScript. At the end of 2013, I got accepted to General Assembly's Web Development Immersive 12-week program. It was definitely one of the most challenging 3 months of my life, but I muscled through it and managed to complete it. I am proficient in Ruby, Ruby on Rails, HTML, CSS, and JavaScript/JQuery. I am also experienced in PoRstgreSQL, Git, Github, AJAX, JSON, Bootstrap, Backbone.js, Angular.js, and Heroku. Throuhout my time at GA, I've fround that I am most passionate about client-side technologies, simple designs, and building projects with a mobile first mentality.</p>
+    <p>On my free time, I spend time with my 2 pups, try to improve my golf game at the driving range or a short 9 hole course, and cheer on my Giants, Warriors, and Niners from the comfort of my home, sometimes out with friends, or at the game if I'm lucky.</p>
+    <h3>Contact</h3>
+    <p>I am currently sharpening my JavaScript and JQuery skills and looking for a front-end web developer position, and also considering full-stack web development. I am open to contract, internship, and full-time employment opportunities. Shoot me an email or connect with me on LinkedIn!</p>
+
+    <div class="contact">
+      <p>| CONTACT DETAILS |</p>
+      <p><span class="contact_name">Charlene Estiva</span><br>
+        <a href="mailto:cbestiva@gmail.com" title="email" class="contact">cbestiva@gmail.com</a><br>
+        <a href="https://www.linkedin.com/in/charleneestiva" target="_blank" class="contact">LinkedIn Profile</a><br>
+        <a href="resume.pdf" target="_blank" title="resume" class="contact">Resume</a>
+      </p>
+    </div>
+  </div>
+
+
+
+  
+</body>
+
+
+</html>
