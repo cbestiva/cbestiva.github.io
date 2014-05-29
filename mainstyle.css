@@ -97,6 +97,11 @@ a.github_link {
 
 .project2_img {
   padding: 20px;
+  margin-bottom: 50px;
+}
+
+.project3_title {
+  text-align: center;
 }
 
 .about_me {
