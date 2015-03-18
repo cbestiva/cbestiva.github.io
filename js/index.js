@@ -1,7 +1,7 @@
-  function hover(element) {
-    element.setAttribute('src', 'img/circle_photo2_with_border.png');
-  }
-
-  function unhover(element) {
-    element.setAttribute('src', 'img/circle_photo_with_border.png');
-  }
+$(document).ready(function(){
+  $(".btn-social").hover(function() {
+    $(this).children().fadeOut(100).fadeIn(500).css("color", "#428BCA");
+  }, function() {
+    $(this).children().css("color", "#333333");
+  });
+}); 
