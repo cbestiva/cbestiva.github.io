@@ -5,20 +5,43 @@ body {
 p {
   font-size: 18px;
 }
-
-.name_nav {
-  text-align: left;
-  font-size: 17px;
+/*navbar*/
+.navbar-default {
+  background-color: #333333;
+  font-family: 'Syncopate', sans-serif;
 }
 
-.nav_div {
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  text-align: right;
-  font-family: 'Syncopate', sans-serif;
-  background-color: #333333;
+/*link*/
+.navbar-default .navbar-nav > li > a {
   color: #F8F8F8;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #428BCA;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+.nav > li > a {
+  padding: 15px 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+  color: #F8F8F8;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0px;
+}
+
+.ce_icon {
+  height: 40px;
 }
 
 a {
@@ -30,16 +53,9 @@ a:hover {
   text-decoration: underline;
 }
 
-#intro_icon_container {
-  /*border: solid;*/
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 40px;
-  background-color: #F8F8F8;
-}
-
 .intro {
-  /*border: solid;*/
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .name {
@@ -78,50 +94,32 @@ a:hover {
   /*border: solid;*/
   margin-top: 50px;
   background-color: rgba(191,191,191,.3);
-  padding-bottom: 120px;
+  padding-bottom: 100px;
 }
 
 .projects_title {
-  /*border: solid;*/
-/*  margin-top: 20px;*/
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 20px;
- /* padding-left: 10px;*/
-}
-
-.project1_title {
-  text-align: center;
 }
 
 a.github_link {
   color: #428BCA;
 }
 
-.project1_img {
+.project_img_div {
   /*border: solid;*/
   padding: 20px;
   margin-bottom: 50px;
-}
-
-.project2_title {
-  text-align: center;
-}
-
-.project2_img {
-  padding: 20px;
-  margin-bottom: 50px;
-}
-
-.project3_title {
-  text-align: center;
 }
 
 .about_me {
   /*border: solid;*/
   background-color: #F8F8F8;
-  margin-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 125px;
+  padding-bottom: 200px;
+}
+
+.aboutme_title {
+  padding-top: 100px; 
 }
 
 img.aboutme_pic {
@@ -131,16 +129,12 @@ img.aboutme_pic {
   margin-right: 12px;
 }
 
-.contact {
-/*  border: solid;*/
-  margin-top: 70px;
-  text-align: center;
-}
-
-.contact_name {
+.navbar-default .footer_text {
   color: #FFB90A;
+  font-size: 12px;
 }
 
-a.contact {
-  color: #428BCA;
+.footer_icon {
+  color: white;
+  margin-top: 15px;
 }
