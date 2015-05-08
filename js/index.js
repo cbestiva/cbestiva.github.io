@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(this).children().css("color", "#333333");
   });
 
-  $('a[href^="#"]').on('click', function(event) {
+  $('a[href^="#nav_"]').on('click', function(event) {
     var target = $($(this).attr('href'));
     console.log(target);
     if( target.length ) {
@@ -15,4 +15,5 @@ $(document).ready(function(){
       }, 1000);
     }
   });
+
 }); 

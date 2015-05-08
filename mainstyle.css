@@ -55,7 +55,7 @@ a:hover {
 
 .intro {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .name {
@@ -92,14 +92,34 @@ a:hover {
 
 .projects {
   /*border: solid;*/
-  margin-top: 50px;
   background-color: rgba(191,191,191,.3);
-  padding-bottom: 100px;
+  height: 700px;
 }
 
 .projects_title {
+  margin-bottom: 50px;
   padding-top: 100px;
-  padding-bottom: 20px;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.left.carousel-control, .right.carousel-control {
+  background-image: none;
+}
+
+.prev, .next {
+  top: 25%;
+  position: absolute;
+}
+
+.prev {
+  left: 0;
+}
+
+a.project_link, a.project_link:hover {
+  color: #428BCA;
 }
 
 a.github_link {
@@ -138,3 +158,4 @@ img.aboutme_pic {
   color: white;
   margin-top: 15px;
 }
+
