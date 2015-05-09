@@ -112,14 +112,17 @@ a.left.carousel-control, a.right.carousel-control {
 .prev, .next {
   top: 25%;
   position: absolute;
-  color: #428BCA;
+}
+
+a.carousel-control:hover > .fa {
+  color: #333;
 }
 
 .prev {
   left: 0;
 }
 
-a.project_link, a.project_link:hover {
+a.project_link {
   color: #428BCA;
 }
 
