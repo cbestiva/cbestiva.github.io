@@ -55,7 +55,7 @@ a:hover {
 
 .intro {
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .name {
@@ -105,13 +105,14 @@ a:hover {
   position: relative;
 }
 
-.left.carousel-control, .right.carousel-control {
+a.left.carousel-control, a.right.carousel-control {
   background-image: none;
 }
 
 .prev, .next {
   top: 25%;
   position: absolute;
+  color: #428BCA;
 }
 
 .prev {
@@ -122,14 +123,26 @@ a.project_link, a.project_link:hover {
   color: #428BCA;
 }
 
-a.github_link {
-  color: #428BCA;
+hr {
+  border: 0;
+  height: 2px;
+  width: 90%;
+  color: #333;
+  background-color: #333;
 }
 
-.project_img_div {
-  /*border: solid;*/
-  padding: 20px;
+.projects_mobile {
+  margin-bottom: 120px;
+}
+
+.pmobile_div {
   margin-bottom: 50px;
+}
+
+.center_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about_me {

@@ -80,32 +80,37 @@
         </ul>
       </section>
   
-      <section id="nav_projects_div" class="projects">
-        <div class="col-sm-10 col-sm-offset-1">
-        <h1 class="projects_title">Projects:</h1>
-          <div id="carousel-example-generic" class="carousel slide hidden-xs hidden-sm" data-ride="carousel" data-interval="false">
+      <section id="nav_projects_div">
+        <div class="projects hidden-xs">
+          <div class="col-sm-10 col-sm-offset-1">
+          <h1 class="projects_title">Projects:</h1>
+          <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel" data-interval="false">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
                 <img src="img/jingling.png" class="col-sm-6" alt="Jingling Gate">
                 <div class="col-sm-5">
-                  <a href="www.jinglinggate.com" class="project_link" target="_blank">
-                    <h2>Jingling Gate Productions</h2>
-                  </a>
+                  <h2>
+                    <a href="www.jinglinggate.com" class="project_link" target="_blank">
+                      Jingling Gate Productions
+                    </a>
+                  </h2>
                   <h4>Front End HTML/CSS/Bootstrap/Ruby on Rails</h4>
                   <p>Jingling Gate is a full-stack development and consulting company.</p>
                   <p>
                     I built the backend of this app in Rails, implemented the contact form, 
-                    deployed the app on Heroku, and helped with styling decisions.
+                    deployed the app on Heroku, and helped with styling and branding decisions.
                   </p>
                 </div>
               </div>
               <div class="item">
                 <img src="img/knackk.png" class="col-sm-6" alt="knackk">
                 <div class="col-sm-5">
-                  <a href="http://knackk-server.herokuapp.com/" class="project_link" target="_blank">
-                    <h2>knackk</h2>
-                  </a>
+                  <h2>
+                    <a href="http://knackk-server.herokuapp.com/" class="project_link" target="_blank">
+                      knackk
+                    </a>
+                  </h2>
                   <h4>Rails IOS Back End/HTML/CSS/Bootstrap</h4>
                   <p>knackk is a social iPhone app for company and co-worker activities.</p>
                   <p>
@@ -118,9 +123,11 @@
               <div class="item">
                 <img src="img/diana.png" class="col-sm-6" alt="Diana Diroy">
                 <div class="col-sm-5">
-                  <a href="www.dianadiroy.com" class="project_link" target="_blank">
-                    <h2>www.dianadiroy.com</h2>
-                  </a>
+                  <h2>
+                    <a href="www.dianadiroy.com" class="project_link" target="_blank">
+                      www.dianadiroy.com
+                    </a>
+                  </h2>
                   <h4>Wordpress/HTML/CSS</h4>
                   <p>Diana Diroy is a documentary filmmaker, video producer, editor, and photographer.</p>
                   <p>
@@ -132,9 +139,11 @@
               <div class="item">
                 <img src="img/tatcha.png" class="col-sm-6" alt="Tatcha">
                 <div class="col-sm-5">
-                  <a href="www.tatcha.com" class="project_link" target="_blank">
-                    <h2>Tatcha</h2>
-                  </a>
+                  <h2>
+                    <a href="www.tatcha.com" class="project_link" target="_blank">
+                      Tatcha
+                    </a>
+                  </h2>
                   <h4>Front End HTML/CSS/Javascript</h4>
                   <p>
                     Tatcha is a Japanese-inspired luxury cosmetics company with an e-commerce site running on
@@ -155,18 +164,87 @@
               <span class="fa fa-angle-right fa-5x next" aria-hidden="true"></span>
             </a>
           </div>
+          </div>
+        </div>
+        <!-- for mobile and tablet views -->
+        <hr class="visible-xs">
+        <div class="projects_mobile visible-xs">
+          <div class="col-sm-10 col-sm-offset-1">
+            <h1 class="projects_title">Projects:</h1>
+            <div class="pmobile_div">
+              <img src="img/jingling.png" class="img-responsive center_img">
+              <h2>
+                <a href="www.jinglinggate.com" class="project_link" target="_blank">
+                  Jingling Gate Productions
+                </a>
+              </h2>
+              <h4>Front End HTML/CSS/Bootstrap/Ruby on Rails</h4>
+              <p>Jingling Gate is a full-stack development and consulting company.</p>
+              <p>
+                I built the backend of this app in Rails, implemented the contact form, 
+                deployed the app on Heroku, and helped with styling and branding decisions.
+              </p>
+            </div>
+            <div class="pmobile_div">
+              <img src="img/knackk.png" class="img-responsive center_img">
+              <h2>
+                <a href="www.dianadiroy.com" class="project_link" target="_blank">
+                  knackk
+                </a>
+              </h2>
+              <h4>Rails IOS Back End/HTML/CSS/Bootstrap</h4>
+              <p>knackk is a social iPhone app for company and co-worker activities.</p>
+              <p>
+                I built the backend of this app in Rails, contributed to the API with tests,
+                built the admin pages, created and styled mailers, implemented the Twilio api,
+                and deployed the app on Heroku.
+              </p>
+            </div>
+            <div class="pmobile_div">
+              <img src="img/diana.png" class="img-responsive center_img">
+              <h2>
+                <a href="www.dianadiroy.com" class="project_link" target="_blank">
+                  www.dianadiroy.com
+                </a>
+              </h2>
+              <h4>Wordpress/HTML/CSS</h4>
+              <p>Diana Diroy is a documentary filmmaker, video producer, editor, and photographer.</p>
+              <p>
+                I helped my friend update and style her Wordpress site and implemented the Alamak
+                responsive one page portfolio theme she had purchased.
+              </p>
+            </div>
+            <div class="pmobile_div">
+              <img src="img/tatcha.png" class="img-responsive center_img">
+              <h2>
+                <a href="www.tatcha.com" class="project_link" target="_blank">
+                  www.tatcha.com
+                </a>
+              </h2>
+              <h4>Front End HTML/CSS/Javascript</h4>
+              <p>
+                Tatcha is a Japanese-inspired luxury cosmetics company with an e-commerce site running on
+                a Magento and Expression Engine back end. 
+              </p>
+              <p>
+                I implemented the redesign and mobile-resposiveness of thier blog based on their designer's 
+                mock-ups.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      
-      <section id="nav_about_div" class="about_me col-sm-10 col-sm-offset-1">
-        <div class="aboutme_title">
-          <h1>About Me...</h1>
+
+      <section id="nav_about_div">
+        <hr class="visible-xs">
+        <div class="about_me col-sm-10 col-sm-offset-1">
+          <h1 class="aboutme_title">About Me...</h1>
+          <img class="aboutme_pic" src="img/aboutme_pic.png" />
+          <p>I'm a born and raised San Franciscan and former accountant who gained an interest in web development. After completing an HTML and CSS evening course at AcademyX I became hooked and wanted to learn more code. I began learning Ruby on my own from free online tutorials and attended a couple ROR and JavaScript meetups in the city. At the end of 2013, I got accepted to General Assembly's Web Development Immersive 12-week program. I am proficient in Ruby, Ruby on Rails, HTML, CSS, and JavaScript/JQuery. I am also experienced in PostgreSQL, Git, Github, AJAX, JSON, Bootstrap, Backbone.js, Angular.js, and Heroku. Throughout my time at GA, I've found that I am most passionate about front-end development, simple clean designs, and building projects with a mobile first mentality.</p>
+          <p>I am a dog owner of 2 and a loyal bay area sports team fanatic. Outside of programming, I enjoy playing golf and spending time with family and friends in So Cal and Nor Cal.</p>
+          <h2>Contact</h2>
+          <p>I am currently sharpening my JavaScript and JQuery skills and looking for a front-end web developer position, but also open to full-stack web development. I am looking for contract or full-time employment opportunities. Shoot me an email or connect with me on LinkedIn!</p>
         </div>
-        <img class="aboutme_pic" src="img/aboutme_pic.png" />
-        <p>I'm a born and raised San Franciscan and former accountant who gained an interest in web development. After completing an HTML and CSS evening course at AcademyX I became hooked and wanted to learn more code. I began learning Ruby on my own from free online tutorials and attended a couple ROR and JavaScript meetups in the city. At the end of 2013, I got accepted to General Assembly's Web Development Immersive 12-week program. I am proficient in Ruby, Ruby on Rails, HTML, CSS, and JavaScript/JQuery. I am also experienced in PostgreSQL, Git, Github, AJAX, JSON, Bootstrap, Backbone.js, Angular.js, and Heroku. Throughout my time at GA, I've found that I am most passionate about front-end development, simple clean designs, and building projects with a mobile first mentality.</p>
-        <p>I am a dog owner of 2 and a loyal bay area sports team fanatic. Outside of programming, I enjoy playing golf and spending time with family and friends in So Cal and Nor Cal.</p>
-        <h2>Contact</h2>
-        <p>I am currently sharpening my JavaScript and JQuery skills and looking for a front-end web developer position, but also open to full-stack web development. I am looking for contract or full-time employment opportunities. Shoot me an email or connect with me on LinkedIn!</p>
       </section>
     </main>
 
